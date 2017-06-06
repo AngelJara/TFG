@@ -47,10 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera\CameraMovement.cs" />
-     <Compile Include="Assets\Scripts\HUD\Inventory.cs" />
-     <Compile Include="Assets\Scripts\HUD\Item.cs" />
+     <Compile Include="Assets\Scripts\Environment\DoorManager.cs" />
+     <Compile Include="Assets\Scripts\HUD\OpenMenu.cs" />
+     <Compile Include="Assets\Scripts\HUD\PickingItem.cs" />
      <Compile Include="Assets\Scripts\Manager\ChangeManager.cs" />
-     <Compile Include="Assets\Scripts\Manager\DoorManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\LoadSceneManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\MenuManager.cs" />
      <Compile Include="Assets\Scripts\Player\Following.cs" />
      <Compile Include="Assets\Scripts\Player\Interacting.cs" />
      <Compile Include="Assets\Scripts\Player\Move.cs" />

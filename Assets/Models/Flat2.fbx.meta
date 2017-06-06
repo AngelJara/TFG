@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: 329e79648399d3b49889490494aece94
+timeCreated: 1496418865
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BedroomWall1
+    100002: BedroomWall2
+    100004: BedroomWall3
+    100006: BedroomWall4
+    100008: BedroomWall5
+    100010: BedroomWall6
+    100012: ExternalWallDown
+    100014: ExternalWallLeft
+    100016: ExternalWallRight
+    100018: ExternalWallUp
+    100020: //RootNode
+    100022: Floor
+    100024: group12
+    100026: group20
+    100028: group21
+    100030: group22
+    100032: group23
+    100034: group24
+    100036: group25
+    100038: group26
+    100040: group27
+    100042: group28
+    100044: group29
+    100046: group30
+    100048: group31
+    100050: group32
+    100052: group33
+    100054: group34
+    100056: group35
+    100058: group36
+    100060: group37
+    100062: group38
+    100064: group39
+    100066: group4
+    100068: group4_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube1
+    100070: group4_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube2
+    100072: group4_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube3
+    100074: group5
+    100076: group5_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube1
+    100078: group6
+    100080: group7
+    100082: HallWall
+    100084: OfficePublicWall5
+    100086: OfficeWall1
+    100088: OfficeWall2
+    100090: OfficeWall3
+    100092: OfficeWall4
+    100094: pasted__group2
+    100096: pasted__group21
+    100098: pasted__group21 1
+    100100: pasted__group21 2
+    100102: pasted__group21 3
+    100104: pasted__group21 4
+    100106: pasted__group21 5
+    100108: pasted__group21 6
+    100110: pasted__group21 7
+    100112: pasted__group21 8
+    100114: pasted__group3
+    100116: pasted__group3 1
+    100118: pasted__group30
+    100120: pasted__group30 1
+    100122: pasted__group30 2
+    100124: pasted__group30 3
+    100126: pasted__group34
+    100128: pasted__group34 1
+    100130: pasted__group34 2
+    100132: pasted__group6
+    100134: pasted__group7
+    100136: pasted__group7_pasted__pasted__group6_pasted__pasted__pasted__group2_pasted__pasted__pasted__pasted__group1_pasted__pasted__pasted__pasted__pasted__pCube1
+    100138: pasted__group8
+    100140: pasted__pasted__group1
+    100142: pasted__pasted__group1 1
+    100144: pasted__pasted__group1 2
+    100146: pasted__pasted__group2
+    100148: pasted__pasted__group21
+    100150: pasted__pasted__group21 1
+    100152: pasted__pasted__group21 2
+    100154: pasted__pasted__group21 3
+    100156: pasted__pasted__group30
+    100158: pasted__pasted__group30 1
+    100160: pasted__pasted__group30 2
+    100162: pasted__pasted__group6
+    100164: pasted__pasted__group6 1
+    100166: pasted__pasted__pasted__group1
+    100168: pasted__pasted__pasted__group2
+    100170: pasted__pasted__pasted__group2 1
+    100172: pasted__pasted__pasted__group21
+    100174: pasted__pasted__pasted__group21 1
+    100176: pasted__pasted__pasted__group21 2
+    100178: pasted__pasted__pasted__pasted__group1
+    100180: pasted__pasted__pasted__pasted__group1 1
+    100182: pasted__pasted__pasted__pasted__pasted__pCube1
+    100184: pasted__pasted__pasted__pasted__pasted__pCube1 1
+    100186: pasted__pasted__pasted__pasted__pCube1
+    100188: pasted__pasted__pasted__pasted__pCube2
+    100190: pasted__pasted__pasted__pasted__pCube2 1
+    100192: pasted__pasted__pasted__pasted__pCube2 2
+    100194: pasted__pasted__pasted__pCube1
+    100196: pasted__pasted__pasted__pCube1 1
+    100198: pasted__pasted__pasted__pCube1 2
+    100200: pasted__pasted__pasted__pCube2
+    100202: pasted__pasted__pasted__pCube2 1
+    100204: pasted__pasted__pasted__pCube2 2
+    100206: pasted__pasted__pasted__pCube2 3
+    100208: pasted__pasted__pCube2
+    100210: pasted__pasted__pCube2 1
+    100212: pasted__pasted__pCube2 2
+    100214: pasted__pasted__pCube2 3
+    100216: pasted__pasted__pCube2 4
+    100218: pasted__pasted__pCube2 5
+    100220: pasted__pasted__pCube2 6
+    100222: pasted__pasted__pCube2 7
+    100224: pasted__pasted__pCube2 8
+    100226: pasted__pCube2
+    100228: PublicWall1
+    100230: transform1
+    100232: transform10
+    100234: transform11
+    100236: transform12
+    100238: transform13
+    100240: transform14
+    100242: transform15
+    100244: transform16
+    100246: transform17
+    100248: transform18
+    100250: transform19
+    100252: transform2
+    100254: transform20
+    100256: transform21
+    100258: transform22
+    100260: transform23
+    100262: transform24
+    100264: transform25
+    100266: transform26
+    100268: transform27
+    100270: transform28
+    100272: transform3
+    100274: transform4
+    100276: transform5
+    100278: transform6
+    100280: transform7
+    100282: transform8
+    100284: transform9
+    100286: VerticalWall1
+    100288: VerticalWall2
+    100290: VerticalWall3
+    100292: VerticalWall4
+    400000: BedroomWall1
+    400002: BedroomWall2
+    400004: BedroomWall3
+    400006: BedroomWall4
+    400008: BedroomWall5
+    400010: BedroomWall6
+    400012: ExternalWallDown
+    400014: ExternalWallLeft
+    400016: ExternalWallRight
+    400018: ExternalWallUp
+    400020: //RootNode
+    400022: Floor
+    400024: group12
+    400026: group20
+    400028: group21
+    400030: group22
+    400032: group23
+    400034: group24
+    400036: group25
+    400038: group26
+    400040: group27
+    400042: group28
+    400044: group29
+    400046: group30
+    400048: group31
+    400050: group32
+    400052: group33
+    400054: group34
+    400056: group35
+    400058: group36
+    400060: group37
+    400062: group38
+    400064: group39
+    400066: group4
+    400068: group4_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube1
+    400070: group4_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube2
+    400072: group4_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube3
+    400074: group5
+    400076: group5_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube1
+    400078: group6
+    400080: group7
+    400082: HallWall
+    400084: OfficePublicWall5
+    400086: OfficeWall1
+    400088: OfficeWall2
+    400090: OfficeWall3
+    400092: OfficeWall4
+    400094: pasted__group2
+    400096: pasted__group21
+    400098: pasted__group21 1
+    400100: pasted__group21 2
+    400102: pasted__group21 3
+    400104: pasted__group21 4
+    400106: pasted__group21 5
+    400108: pasted__group21 6
+    400110: pasted__group21 7
+    400112: pasted__group21 8
+    400114: pasted__group3
+    400116: pasted__group3 1
+    400118: pasted__group30
+    400120: pasted__group30 1
+    400122: pasted__group30 2
+    400124: pasted__group30 3
+    400126: pasted__group34
+    400128: pasted__group34 1
+    400130: pasted__group34 2
+    400132: pasted__group6
+    400134: pasted__group7
+    400136: pasted__group7_pasted__pasted__group6_pasted__pasted__pasted__group2_pasted__pasted__pasted__pasted__group1_pasted__pasted__pasted__pasted__pasted__pCube1
+    400138: pasted__group8
+    400140: pasted__pasted__group1
+    400142: pasted__pasted__group1 1
+    400144: pasted__pasted__group1 2
+    400146: pasted__pasted__group2
+    400148: pasted__pasted__group21
+    400150: pasted__pasted__group21 1
+    400152: pasted__pasted__group21 2
+    400154: pasted__pasted__group21 3
+    400156: pasted__pasted__group30
+    400158: pasted__pasted__group30 1
+    400160: pasted__pasted__group30 2
+    400162: pasted__pasted__group6
+    400164: pasted__pasted__group6 1
+    400166: pasted__pasted__pasted__group1
+    400168: pasted__pasted__pasted__group2
+    400170: pasted__pasted__pasted__group2 1
+    400172: pasted__pasted__pasted__group21
+    400174: pasted__pasted__pasted__group21 1
+    400176: pasted__pasted__pasted__group21 2
+    400178: pasted__pasted__pasted__pasted__group1
+    400180: pasted__pasted__pasted__pasted__group1 1
+    400182: pasted__pasted__pasted__pasted__pasted__pCube1
+    400184: pasted__pasted__pasted__pasted__pasted__pCube1 1
+    400186: pasted__pasted__pasted__pasted__pCube1
+    400188: pasted__pasted__pasted__pasted__pCube2
+    400190: pasted__pasted__pasted__pasted__pCube2 1
+    400192: pasted__pasted__pasted__pasted__pCube2 2
+    400194: pasted__pasted__pasted__pCube1
+    400196: pasted__pasted__pasted__pCube1 1
+    400198: pasted__pasted__pasted__pCube1 2
+    400200: pasted__pasted__pasted__pCube2
+    400202: pasted__pasted__pasted__pCube2 1
+    400204: pasted__pasted__pasted__pCube2 2
+    400206: pasted__pasted__pasted__pCube2 3
+    400208: pasted__pasted__pCube2
+    400210: pasted__pasted__pCube2 1
+    400212: pasted__pasted__pCube2 2
+    400214: pasted__pasted__pCube2 3
+    400216: pasted__pasted__pCube2 4
+    400218: pasted__pasted__pCube2 5
+    400220: pasted__pasted__pCube2 6
+    400222: pasted__pasted__pCube2 7
+    400224: pasted__pasted__pCube2 8
+    400226: pasted__pCube2
+    400228: PublicWall1
+    400230: transform1
+    400232: transform10
+    400234: transform11
+    400236: transform12
+    400238: transform13
+    400240: transform14
+    400242: transform15
+    400244: transform16
+    400246: transform17
+    400248: transform18
+    400250: transform19
+    400252: transform2
+    400254: transform20
+    400256: transform21
+    400258: transform22
+    400260: transform23
+    400262: transform24
+    400264: transform25
+    400266: transform26
+    400268: transform27
+    400270: transform28
+    400272: transform3
+    400274: transform4
+    400276: transform5
+    400278: transform6
+    400280: transform7
+    400282: transform8
+    400284: transform9
+    400286: VerticalWall1
+    400288: VerticalWall2
+    400290: VerticalWall3
+    400292: VerticalWall4
+    2300000: BedroomWall1
+    2300002: BedroomWall2
+    2300004: BedroomWall3
+    2300006: BedroomWall4
+    2300008: BedroomWall5
+    2300010: BedroomWall6
+    2300012: ExternalWallDown
+    2300014: ExternalWallLeft
+    2300016: ExternalWallRight
+    2300018: ExternalWallUp
+    2300020: Floor
+    2300022: HallWall
+    2300024: OfficePublicWall5
+    2300026: OfficeWall1
+    2300028: OfficeWall2
+    2300030: OfficeWall3
+    2300032: OfficeWall4
+    2300034: PublicWall1
+    2300036: VerticalWall1
+    2300038: VerticalWall2
+    2300040: VerticalWall3
+    2300042: VerticalWall4
+    3300000: BedroomWall1
+    3300002: BedroomWall2
+    3300004: BedroomWall3
+    3300006: BedroomWall4
+    3300008: BedroomWall5
+    3300010: BedroomWall6
+    3300012: ExternalWallDown
+    3300014: ExternalWallLeft
+    3300016: ExternalWallRight
+    3300018: ExternalWallUp
+    3300020: Floor
+    3300022: HallWall
+    3300024: OfficePublicWall5
+    3300026: OfficeWall1
+    3300028: OfficeWall2
+    3300030: OfficeWall3
+    3300032: OfficeWall4
+    3300034: PublicWall1
+    3300036: VerticalWall1
+    3300038: VerticalWall2
+    3300040: VerticalWall3
+    3300042: VerticalWall4
+    4300000: ExternalWallDown
+    4300002: ExternalWallUp
+    4300004: ExternalWallRight
+    4300006: ExternalWallLeft
+    4300008: OfficeWall4
+    4300010: OfficeWall3
+    4300012: OfficeWall2
+    4300014: OfficeWall1
+    4300016: HallWall
+    4300018: BedroomWall1
+    4300020: BedroomWall2
+    4300022: BedroomWall3
+    4300024: BedroomWall4
+    4300026: BedroomWall5
+    4300028: BedroomWall6
+    4300030: VerticalWall1
+    4300032: VerticalWall3
+    4300034: VerticalWall2
+    4300036: PublicWall1
+    4300038: OfficePublicWall5
+    4300040: VerticalWall4
+    4300042: Floor
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

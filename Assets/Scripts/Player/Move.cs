@@ -7,6 +7,8 @@ public class Move : MonoBehaviour {
 	public float Speed;
 	public float turnSpeed;
 	public float turnTime = 1f;
+	public Canvas HUDCanvas;
+
 
 	string movementAxisName;
 	string turnAxisName;
@@ -18,9 +20,11 @@ public class Move : MonoBehaviour {
 	float timer;
 
 
+
 	void Awake(){
 		rb = GetComponent<Rigidbody> ();
 		timer = 1f;
+
 
 	}
 
@@ -66,9 +70,11 @@ public class Move : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
-		Moves ();
-		Turns ();
 
+		if (HUDCanvas.GetComponent<OpenMenu> ().Closed == true) {
+			Moves ();
+			Turns ();
+		}
 	}
 
 	void Moves(){

@@ -58,7 +58,7 @@ public class ChangeManager : MonoBehaviour {
 				cam.transform.GetComponent<CameraMovement> ().Player = leader;
 				cam.transform.GetComponent<CameraMovement> ().ChangePlayer (100);
 				leader.GetComponent<Move> ().enabled = true;
-				//leader.GetComponent<Following> ().nav.enabled = false;
+				leader.GetComponent<Following> ().nav.enabled = false;
 				leader.GetComponent<Following> ().enabled = false;
 
 			}
@@ -69,7 +69,7 @@ public class ChangeManager : MonoBehaviour {
 				characters [i].GetComponent<Following> ().enabled = true;
 				characters [i].GetComponent<Following> ().nav.enabled = true;
 				characters [i].GetComponent<Following> ().Player = leader;
-				//leader.GetComponent<Following> ().nav.enabled = true;
+				leader.GetComponent<Following> ().nav.enabled = true;
 			}
 		}
 

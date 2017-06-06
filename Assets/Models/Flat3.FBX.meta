@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: 3a0195aed3637924c8751e0c5984dec6
+timeCreated: 1496510511
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BedroomWall1
+    100002: BedroomWall2
+    100004: BedroomWall3
+    100006: BedroomWall4
+    100008: BedroomWall5
+    100010: BedroomWall6
+    100012: Buttress
+    100014: Buttress001
+    100016: Buttress002
+    100018: Buttress003
+    100020: Buttress004
+    100022: Buttress005
+    100024: Buttress006
+    100026: Buttress007
+    100028: Buttress008
+    100030: Buttress009
+    100032: Buttress010
+    100034: Buttress011
+    100036: Buttress012
+    100038: Buttress013
+    100040: Buttress014
+    100042: Buttress015
+    100044: Buttress016
+    100046: Buttress017
+    100048: Buttress018
+    100050: Buttress019
+    100052: Buttress020
+    100054: ExternalWallDown
+    100056: ExternalWallLeft
+    100058: ExternalWallRight
+    100060: ExternalWallUp
+    100062: //RootNode
+    100064: Floor
+    100066: group12
+    100068: group20
+    100070: group21
+    100072: group22
+    100074: group23
+    100076: group24
+    100078: group25
+    100080: group26
+    100082: group27
+    100084: group28
+    100086: group29
+    100088: group30
+    100090: group31
+    100092: group32
+    100094: group33
+    100096: group34
+    100098: group35
+    100100: group36
+    100102: group37
+    100104: group38
+    100106: group39
+    100108: group4
+    100110: group4_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube1
+    100112: group4_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube2
+    100114: group4_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube3
+    100116: group5
+    100118: group5_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube1
+    100120: group6
+    100122: group7
+    100124: HallWall
+    100126: LibraryWall
+    100128: OfficeWall1
+    100130: OfficeWall2
+    100132: OfficeWall3
+    100134: OfficeWall4
+    100136: OfficeWall5
+    100138: pasted__group2
+    100140: pasted__group21
+    100142: pasted__group21 1
+    100144: pasted__group21 2
+    100146: pasted__group21 3
+    100148: pasted__group21 4
+    100150: pasted__group21 5
+    100152: pasted__group21 6
+    100154: pasted__group21 7
+    100156: pasted__group21 8
+    100158: pasted__group3
+    100160: pasted__group3 1
+    100162: pasted__group30
+    100164: pasted__group30 1
+    100166: pasted__group30 2
+    100168: pasted__group30 3
+    100170: pasted__group34
+    100172: pasted__group34 1
+    100174: pasted__group34 2
+    100176: pasted__group6
+    100178: pasted__group7
+    100180: pasted__group7_pasted__pasted__group6_pasted__pasted__pasted__group2_pasted__pasted__pasted__pasted__group1_pasted__pasted__pasted__pasted__pasted__pCube1
+    100182: pasted__group8
+    100184: pasted__pasted__group1
+    100186: pasted__pasted__group1 1
+    100188: pasted__pasted__group1 2
+    100190: pasted__pasted__group2
+    100192: pasted__pasted__group21
+    100194: pasted__pasted__group21 1
+    100196: pasted__pasted__group21 2
+    100198: pasted__pasted__group21 3
+    100200: pasted__pasted__group30
+    100202: pasted__pasted__group30 1
+    100204: pasted__pasted__group30 2
+    100206: pasted__pasted__group6
+    100208: pasted__pasted__group6 1
+    100210: pasted__pasted__pasted__group1
+    100212: pasted__pasted__pasted__group2
+    100214: pasted__pasted__pasted__group2 1
+    100216: pasted__pasted__pasted__group21
+    100218: pasted__pasted__pasted__group21 1
+    100220: pasted__pasted__pasted__group21 2
+    100222: pasted__pasted__pasted__pasted__group1
+    100224: pasted__pasted__pasted__pasted__group1 1
+    100226: pasted__pasted__pasted__pasted__pasted__pCube1
+    100228: pasted__pasted__pasted__pasted__pasted__pCube1 1
+    100230: pasted__pasted__pasted__pasted__pCube1
+    100232: pasted__pasted__pasted__pasted__pCube2
+    100234: pasted__pasted__pasted__pasted__pCube2 1
+    100236: pasted__pasted__pasted__pasted__pCube2 2
+    100238: pasted__pasted__pasted__pCube1
+    100240: pasted__pasted__pasted__pCube1 1
+    100242: pasted__pasted__pasted__pCube1 2
+    100244: pasted__pasted__pasted__pCube2
+    100246: pasted__pasted__pasted__pCube2 1
+    100248: pasted__pasted__pasted__pCube2 2
+    100250: pasted__pasted__pasted__pCube2 3
+    100252: pasted__pasted__pCube2
+    100254: pasted__pasted__pCube2 1
+    100256: pasted__pasted__pCube2 2
+    100258: pasted__pasted__pCube2 3
+    100260: pasted__pasted__pCube2 4
+    100262: pasted__pasted__pCube2 5
+    100264: pasted__pasted__pCube2 6
+    100266: pasted__pasted__pCube2 7
+    100268: pasted__pasted__pCube2 8
+    100270: pasted__pCube2
+    100272: PublicWall1
+    100274: transform1
+    100276: transform10
+    100278: transform11
+    100280: transform12
+    100282: transform13
+    100284: transform14
+    100286: transform15
+    100288: transform16
+    100290: transform17
+    100292: transform18
+    100294: transform19
+    100296: transform2
+    100298: transform20
+    100300: transform21
+    100302: transform22
+    100304: transform23
+    100306: transform24
+    100308: transform25
+    100310: transform26
+    100312: transform27
+    100314: transform28
+    100316: transform3
+    100318: transform4
+    100320: transform5
+    100322: transform6
+    100324: transform7
+    100326: transform8
+    100328: transform9
+    100330: VerticalWall1
+    100332: VerticalWall2
+    100334: VerticalWall3
+    100336: VerticalWall4
+    400000: BedroomWall1
+    400002: BedroomWall2
+    400004: BedroomWall3
+    400006: BedroomWall4
+    400008: BedroomWall5
+    400010: BedroomWall6
+    400012: Buttress
+    400014: Buttress001
+    400016: Buttress002
+    400018: Buttress003
+    400020: Buttress004
+    400022: Buttress005
+    400024: Buttress006
+    400026: Buttress007
+    400028: Buttress008
+    400030: Buttress009
+    400032: Buttress010
+    400034: Buttress011
+    400036: Buttress012
+    400038: Buttress013
+    400040: Buttress014
+    400042: Buttress015
+    400044: Buttress016
+    400046: Buttress017
+    400048: Buttress018
+    400050: Buttress019
+    400052: Buttress020
+    400054: ExternalWallDown
+    400056: ExternalWallLeft
+    400058: ExternalWallRight
+    400060: ExternalWallUp
+    400062: //RootNode
+    400064: Floor
+    400066: group12
+    400068: group20
+    400070: group21
+    400072: group22
+    400074: group23
+    400076: group24
+    400078: group25
+    400080: group26
+    400082: group27
+    400084: group28
+    400086: group29
+    400088: group30
+    400090: group31
+    400092: group32
+    400094: group33
+    400096: group34
+    400098: group35
+    400100: group36
+    400102: group37
+    400104: group38
+    400106: group39
+    400108: group4
+    400110: group4_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube1
+    400112: group4_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube2
+    400114: group4_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube3
+    400116: group5
+    400118: group5_pasted__group3_pasted__pasted__group1_pasted__pasted__pasted__pCube1
+    400120: group6
+    400122: group7
+    400124: HallWall
+    400126: LibraryWall
+    400128: OfficeWall1
+    400130: OfficeWall2
+    400132: OfficeWall3
+    400134: OfficeWall4
+    400136: OfficeWall5
+    400138: pasted__group2
+    400140: pasted__group21
+    400142: pasted__group21 1
+    400144: pasted__group21 2
+    400146: pasted__group21 3
+    400148: pasted__group21 4
+    400150: pasted__group21 5
+    400152: pasted__group21 6
+    400154: pasted__group21 7
+    400156: pasted__group21 8
+    400158: pasted__group3
+    400160: pasted__group3 1
+    400162: pasted__group30
+    400164: pasted__group30 1
+    400166: pasted__group30 2
+    400168: pasted__group30 3
+    400170: pasted__group34
+    400172: pasted__group34 1
+    400174: pasted__group34 2
+    400176: pasted__group6
+    400178: pasted__group7
+    400180: pasted__group7_pasted__pasted__group6_pasted__pasted__pasted__group2_pasted__pasted__pasted__pasted__group1_pasted__pasted__pasted__pasted__pasted__pCube1
+    400182: pasted__group8
+    400184: pasted__pasted__group1
+    400186: pasted__pasted__group1 1
+    400188: pasted__pasted__group1 2
+    400190: pasted__pasted__group2
+    400192: pasted__pasted__group21
+    400194: pasted__pasted__group21 1
+    400196: pasted__pasted__group21 2
+    400198: pasted__pasted__group21 3
+    400200: pasted__pasted__group30
+    400202: pasted__pasted__group30 1
+    400204: pasted__pasted__group30 2
+    400206: pasted__pasted__group6
+    400208: pasted__pasted__group6 1
+    400210: pasted__pasted__pasted__group1
+    400212: pasted__pasted__pasted__group2
+    400214: pasted__pasted__pasted__group2 1
+    400216: pasted__pasted__pasted__group21
+    400218: pasted__pasted__pasted__group21 1
+    400220: pasted__pasted__pasted__group21 2
+    400222: pasted__pasted__pasted__pasted__group1
+    400224: pasted__pasted__pasted__pasted__group1 1
+    400226: pasted__pasted__pasted__pasted__pasted__pCube1
+    400228: pasted__pasted__pasted__pasted__pasted__pCube1 1
+    400230: pasted__pasted__pasted__pasted__pCube1
+    400232: pasted__pasted__pasted__pasted__pCube2
+    400234: pasted__pasted__pasted__pasted__pCube2 1
+    400236: pasted__pasted__pasted__pasted__pCube2 2
+    400238: pasted__pasted__pasted__pCube1
+    400240: pasted__pasted__pasted__pCube1 1
+    400242: pasted__pasted__pasted__pCube1 2
+    400244: pasted__pasted__pasted__pCube2
+    400246: pasted__pasted__pasted__pCube2 1
+    400248: pasted__pasted__pasted__pCube2 2
+    400250: pasted__pasted__pasted__pCube2 3
+    400252: pasted__pasted__pCube2
+    400254: pasted__pasted__pCube2 1
+    400256: pasted__pasted__pCube2 2
+    400258: pasted__pasted__pCube2 3
+    400260: pasted__pasted__pCube2 4
+    400262: pasted__pasted__pCube2 5
+    400264: pasted__pasted__pCube2 6
+    400266: pasted__pasted__pCube2 7
+    400268: pasted__pasted__pCube2 8
+    400270: pasted__pCube2
+    400272: PublicWall1
+    400274: transform1
+    400276: transform10
+    400278: transform11
+    400280: transform12
+    400282: transform13
+    400284: transform14
+    400286: transform15
+    400288: transform16
+    400290: transform17
+    400292: transform18
+    400294: transform19
+    400296: transform2
+    400298: transform20
+    400300: transform21
+    400302: transform22
+    400304: transform23
+    400306: transform24
+    400308: transform25
+    400310: transform26
+    400312: transform27
+    400314: transform28
+    400316: transform3
+    400318: transform4
+    400320: transform5
+    400322: transform6
+    400324: transform7
+    400326: transform8
+    400328: transform9
+    400330: VerticalWall1
+    400332: VerticalWall2
+    400334: VerticalWall3
+    400336: VerticalWall4
+    2300000: BedroomWall1
+    2300002: BedroomWall2
+    2300004: BedroomWall3
+    2300006: BedroomWall4
+    2300008: BedroomWall5
+    2300010: BedroomWall6
+    2300012: Buttress
+    2300014: Buttress001
+    2300016: Buttress002
+    2300018: Buttress003
+    2300020: Buttress004
+    2300022: Buttress005
+    2300024: Buttress006
+    2300026: Buttress007
+    2300028: Buttress008
+    2300030: Buttress009
+    2300032: Buttress010
+    2300034: Buttress011
+    2300036: Buttress012
+    2300038: Buttress013
+    2300040: Buttress014
+    2300042: Buttress015
+    2300044: Buttress016
+    2300046: Buttress017
+    2300048: Buttress018
+    2300050: Buttress019
+    2300052: Buttress020
+    2300054: ExternalWallDown
+    2300056: ExternalWallLeft
+    2300058: ExternalWallRight
+    2300060: ExternalWallUp
+    2300062: Floor
+    2300064: HallWall
+    2300066: LibraryWall
+    2300068: OfficeWall1
+    2300070: OfficeWall2
+    2300072: OfficeWall3
+    2300074: OfficeWall4
+    2300076: OfficeWall5
+    2300078: PublicWall1
+    2300080: VerticalWall1
+    2300082: VerticalWall2
+    2300084: VerticalWall3
+    2300086: VerticalWall4
+    3300000: BedroomWall1
+    3300002: BedroomWall2
+    3300004: BedroomWall3
+    3300006: BedroomWall4
+    3300008: BedroomWall5
+    3300010: BedroomWall6
+    3300012: Buttress
+    3300014: Buttress001
+    3300016: Buttress002
+    3300018: Buttress003
+    3300020: Buttress004
+    3300022: Buttress005
+    3300024: Buttress006
+    3300026: Buttress007
+    3300028: Buttress008
+    3300030: Buttress009
+    3300032: Buttress010
+    3300034: Buttress011
+    3300036: Buttress012
+    3300038: Buttress013
+    3300040: Buttress014
+    3300042: Buttress015
+    3300044: Buttress016
+    3300046: Buttress017
+    3300048: Buttress018
+    3300050: Buttress019
+    3300052: Buttress020
+    3300054: ExternalWallDown
+    3300056: ExternalWallLeft
+    3300058: ExternalWallRight
+    3300060: ExternalWallUp
+    3300062: Floor
+    3300064: HallWall
+    3300066: LibraryWall
+    3300068: OfficeWall1
+    3300070: OfficeWall2
+    3300072: OfficeWall3
+    3300074: OfficeWall4
+    3300076: OfficeWall5
+    3300078: PublicWall1
+    3300080: VerticalWall1
+    3300082: VerticalWall2
+    3300084: VerticalWall3
+    3300086: VerticalWall4
+    4300000: ExternalWallDown
+    4300002: ExternalWallUp
+    4300004: ExternalWallRight
+    4300006: ExternalWallLeft
+    4300008: OfficeWall4
+    4300010: OfficeWall3
+    4300012: OfficeWall2
+    4300014: OfficeWall1
+    4300016: HallWall
+    4300018: BedroomWall1
+    4300020: BedroomWall2
+    4300022: BedroomWall3
+    4300024: BedroomWall4
+    4300026: BedroomWall5
+    4300028: BedroomWall6
+    4300030: VerticalWall1
+    4300032: VerticalWall3
+    4300034: PublicWall1
+    4300036: VerticalWall4
+    4300038: Floor
+    4300040: VerticalWall2
+    4300042: OfficeWall5
+    4300044: LibraryWall
+    4300046: Buttress
+    4300048: Buttress001
+    4300050: Buttress002
+    4300052: Buttress003
+    4300054: Buttress004
+    4300056: Buttress005
+    4300058: Buttress006
+    4300060: Buttress007
+    4300062: Buttress008
+    4300064: Buttress009
+    4300066: Buttress010
+    4300068: Buttress011
+    4300070: Buttress012
+    4300072: Buttress013
+    4300074: Buttress014
+    4300076: Buttress015
+    4300078: Buttress016
+    4300080: Buttress017
+    4300082: Buttress018
+    4300084: Buttress019
+    4300086: Buttress020
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

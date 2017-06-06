@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour {
 
+
+	public Canvas HUDCanvas;
 	public GameObject Player;
 	public float smoothing = 15f;
 	public float SpeedX = 10f;
@@ -56,15 +58,18 @@ public class CameraMovement : MonoBehaviour {
 		//camPos.Set(Player.transform.position.x - camPosX, Player.transform.position.y + camPosY, Player.transform.position.z - camPosZ);
 		//transform.position = Vector3.Lerp(transform.position, camPos, smoothing * Time.deltaTime);
 
-		Move (v,r);
 
+		if (HUDCanvas.GetComponent<OpenMenu> ().Closed == true) {
+			Move (v, r);
+			Turn ();
+		}
 
 
 
 		//float x = Input.GetAxis ("Mouse X");
 		//float y = Input.GetAxis ("Mouse Y");
 
-		Turn ();
+
 
 
 	}
@@ -82,22 +87,26 @@ public class CameraMovement : MonoBehaviour {
 		float turnX;
 		float turnY;
 
-		if (xPos < 0.3f) {
-			turnX = MoveSpeed * Time.deltaTime;
-			if (xPos < 0.2f) {
-				turnX += MoveSpeed * Time.deltaTime;
-				if (xPos < 0.1f) {
-					turnX += MoveSpeed * Time.deltaTime;
+		if (xPos < 0.2f) {
+			turnX = MoveSpeed;
+			if (xPos < 0.1f) {
+				turnX *= 2;
+				//turnX += MoveSpeed * Time.deltaTime;
+				if (xPos < 0.05f) {
+					turnX *= 2;
+					//turnX += MoveSpeed * Time.deltaTime;
 				} 
 			} 
 		} 
 
-		else if (xPos > 0.7f) {
-			turnX = -MoveSpeed * Time.deltaTime;
-			if (xPos > 0.8f) {
-				turnX += -MoveSpeed * Time.deltaTime;
-				if (xPos > 0.9f) {
-					turnX += -MoveSpeed * Time.deltaTime;
+		else if (xPos > 0.8f) {
+			turnX = -MoveSpeed;
+			if (xPos > 0.9f) {
+				turnX *= 2;
+				//turnX += -MoveSpeed * Time.deltaTime;
+				if (xPos > 0.95f) {
+					turnX *= 2;
+					//turnX += -MoveSpeed * Time.deltaTime;
 				}
 			}
 		}
@@ -130,17 +139,22 @@ public class CameraMovement : MonoBehaviour {
 			turnY = 0;
 		}
 
-
-		transform.RotateAround (Player.transform.position, Vector3.up * turnX, MoveSpeed * Time.deltaTime);
-
+		//Debug.Log (turnX);
 
 
-		Debug.Log (turnY);
+		transform.RotateAround (Player.transform.position, Vector3.up, turnX * Time.deltaTime);
 
-		if (transform.rotation.x < 0.1f && turnY>0 || transform.rotation.x > 0.4f && turnY<0)
+
+
+
+		/*if (Mathf.Abs(transform.rotation.x) < 0.1f && turnY>0 || transform.rotation.x > 0.4f && turnY<0)
 			turnY = 0;
-		
+
+
+		Debug.Log (Mathf.Abs(transform.rotation.x));
 		transform.RotateAround (Player.transform.position, Vector3.left * turnY, MoveSpeed * Time.deltaTime);
+
+		*/
 
 
 	//	transform.RotateAround (Player.transform.position, Vector3.left * y, 20*Time.deltaTime);
